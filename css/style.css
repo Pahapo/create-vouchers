@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+body {
+    width: 100%;
+    display: block;
+    background-color: #f3f5f8;
+}
+.form {
+    box-shadow: 6px 6px 15px rgb(134 139 146 / 60%), -6px -6px 15px #fff;
+    border-spacing: 0px;
+    border-radius: 15px;
+    display: block;
+    margin: 20px 20px 50px 20px;
+}
+.block-mini {
+    width: 100%;
+    padding: 10px;
+}
+.text {
+    display: flex;
+    margin-bottom: 10px;
+}
+.data-input {
+    margin: 20px 0;
+}
+label {
+    display: flex;
+    align-items: center;
+}
+label p {
+    margin-right: 20px;
+}
+input {
+    border-radius: 15px;
+    background-color: transparent;
+    box-shadow: inset 2px 2px 3px rgba(134, 139, 146, 0.5),
+    inset -5px -5px 5px #FFF;
+    padding: 12px;
+    border: none;
+}
+input[type=button] {
+    background-color: transparent;
+    box-shadow: 6px 6px 15px rgba(134, 139, 146, 0.6),
+    -6px -6px 15px #FFF;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+}
+select {
+    border-radius: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.block-output {
+    width: 100%;
+    padding: 10px;
+}
+.image img {
+    width: 375px;
+}
+.none-img {
+    display: none;
+}
+.hidden {
+    visibility: hidden;
+}
+.active {
+    visibility: visible;
+}
+.grey {
+    border: 2px solid rgb(70, 70, 70);
+}
+.grey:hover {
+    background-color: rgba(215, 215, 215, 0.619);
+}
+
+/* position */
+.image {
+    position: relative;
+    width: 375px;
+}
+#one_more_pic1, #date_pic1, #team_pic1, #forecast_pic1, #bet_pic1, #factor_pic1, #payout_pic1, #one_more_pic2, #date_pic2, #team_pic2, #forecast_pic2, #bet_pic2, #factor_pic2, #payout_pic2, #score_pic2 {
+    position: absolute;
+    content: '';
+}
+#one_more_pic1, #one_more_pic2 {
+    top: 145px;
+    left: 257px;
+    font-size: 12px;
+}
+#date_pic1, #date_pic2 {
+    top: 160px;
+    left: 257px;
+    font-size: 10px;
+}
+#team_pic1 {
+    top: 194px;
+    left: 67px;
+    font-size: 10px;
+    width: 140px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+#team_pic2 {
+    top: 208px;
+    left: 67px;
+    font-size: 10px;
+    width: 240px;
+}
+#forecast_pic1 {
+    top: 194px;
+    right: 59px;
+    font-size: 10px;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    text-align: right;
+    display: flex;
+}
+#forecast_pic2 {
+    top: 221px;
+    left: 67px;
+    font-size: 10px;
+    width: 240px;
+}
+#bet_pic1 {
+    top: 260px;
+    right: 59px;
+    font-size: 10px;
+}
+#bet_pic2 {
+    top: 260px;
+    right: 59px;
+    font-size: 10px;
+}
+#factor_pic1 {
+    top: 282px;
+    right: 59px;
+    font-size: 10px;
+}
+#factor_pic2 {
+    top: 282px;
+    right: 59px;
+    font-size: 10px;
+}
+#payout_pic1 {
+    top: 305px;
+    right: 59px;
+    font-size: 10px;
+}
+#payout_pic2 {
+    top: 305px;
+    right: 59px;
+    font-size: 10px;
+}
+#score_pic2 {
+    top: 208px;
+    right: 64px;
+    font-size: 10px;
+}
