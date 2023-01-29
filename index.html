@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      <meta charset="UTF-8">
+      <title>Ставка MostBet</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- for mobile -->
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <form class="form">
+        <div class="block-mini">
+          <select id="one_more">
+            <option value="one">Одиночная</option>
+            <option value="more">Экспресс</option>
+          </select>
+          <div class="data">
+            <div class="data-input">
+              <label for="btn1"><p>Команда 1</p>
+              <input type="text" id="team1"></label>
+            </div>
+            <div class="data-input">
+              <label for="btn2"><p>Команда 2</p>
+              <input type="text" id="team2"></label>
+            </div>
+            <div class="data-input">
+              <label for="btn3"><p>Прогноз</p>
+              <input type="text" id="forecast"></label>
+            </div>
+            <div class="data-input">
+              <label for="btn4"><p>Ставка</p>
+              <input type="number" id="bet"></label>
+            </div>
+            <div class="data-input">
+              <label for="btn5"><p>Коэффициент</p>
+              <input type="number" id="factor"></label>
+            </div>
+            <div class="data-input">
+              <label for="btn6"><p>Счёт (если победа)</p>
+              <input type="text" id="score"></label>
+            </div>
+          </div>
+        </div>
+      <div class="block-output">
+        <div class="text">
+          <input class="btn grey" id="btn1" type="button" value="Ожидание">
+          <input class="btn grey" id="btn2" type="button" value="Победа">
+        </div>
+      </div>
+    </form>
+    <div class="image">
+      <img id='img1' class='none-img' src="img/wait.jpg">
+      <img id='img2' class='none-img' src="img/win.jpg">
+      
+      <p id="one_more_pic1"></p>
+      <p id="date_pic1"></p>
+      <p id="team_pic1"></p>
+      <p id="forecast_pic1"></p>
+      <p id="bet_pic1"></p>
+      <p id="factor_pic1"></p>
+      <p id="payout_pic1"></p>
+
+      <p id="one_more_pic2"></p>
+      <p id="date_pic2"></p>
+      <p id="team_pic2"></p>
+      <p id="forecast_pic2"></p>
+      <p id="bet_pic2"></p>
+      <p id="factor_pic2"></p>
+      <p id="payout_pic2"></p>
+      <p id="score_pic2"></p>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>
