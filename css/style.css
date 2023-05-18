@@ -6,9 +6,16 @@
     font-weight: normal;
 }
 body {
-    width: 100%;
-    display: block;
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f3f5f8;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
 }
 .form {
     box-shadow: 6px 6px 15px rgb(134 139 146 / 60%), -6px -6px 15px #fff;
@@ -67,7 +74,7 @@ select {
     padding: 10px;
 }
 .image img {
-    width: 375px;
+    width: 600px;
 }
 .none-img {
     display: none;
@@ -86,87 +93,44 @@ select {
 }
 
 /* position */
+
 .image {
     position: relative;
-    width: 375px;
+    width: 600px;
 }
-#one_more_pic1, #date_pic1, #team_pic1, #forecast_pic1, #bet_pic1, #factor_pic1, #payout_pic1, #one_more_pic2, #date_pic2, #team_pic2, #forecast_pic2, #bet_pic2, #factor_pic2, #payout_pic2, #score_pic2 {
+.image p {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+#voucher_pic, #sum_pic, #count_pic {
     position: absolute;
     content: '';
 }
-#one_more_pic1, #one_more_pic2 {
-    top: 145px;
-    left: 257px;
-    font-size: 12px;
+#voucher_pic {
+    top: 60px;
+    left: 284px;
+    font-size: 24px;
 }
-#date_pic1, #date_pic2 {
-    top: 160px;
-    left: 257px;
-    font-size: 10px;
+#sum_pic {
+    top: 213px;
+    left: 185px;
+    font-size: 34px;
 }
-#team_pic1 {
-    top: 194px;
-    left: 67px;
-    font-size: 10px;
-    width: 140px;
-    height: 50px;
-    align-items: center;
-    display: flex;
+#count_pic {
+    top: 213px;
+    right: 207px;
+    font-size: 34px;
 }
-#team_pic2 {
-    top: 208px;
-    left: 67px;
-    font-size: 10px;
-    width: 240px;
-}
-#forecast_pic1 {
-    top: 194px;
-    right: 59px;
-    font-size: 10px;
-    width: 100px;
-    height: 50px;
-    align-items: center;
-    text-align: right;
-    display: flex;
-}
-#forecast_pic2 {
-    top: 221px;
-    left: 67px;
-    font-size: 10px;
-    width: 240px;
-}
-#bet_pic1 {
-    top: 260px;
-    right: 59px;
-    font-size: 10px;
-}
-#bet_pic2 {
-    top: 260px;
-    right: 59px;
-    font-size: 10px;
-}
-#factor_pic1 {
-    top: 282px;
-    right: 59px;
-    font-size: 10px;
-}
-#factor_pic2 {
-    top: 282px;
-    right: 59px;
-    font-size: 10px;
-}
-#payout_pic1 {
-    top: 305px;
-    right: 59px;
-    font-size: 10px;
-}
-#payout_pic2 {
-    top: 305px;
-    right: 59px;
-    font-size: 10px;
-}
-#score_pic2 {
-    top: 208px;
-    right: 64px;
-    font-size: 10px;
+
+/* for mobile */
+
+@media screen and (max-width: 600px) { 
+    body {
+        height: 100%;
+    }
+    .content {
+        display: block;
+    }
 }
