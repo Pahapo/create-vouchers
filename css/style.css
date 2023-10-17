@@ -99,8 +99,8 @@ select {
     width: 600px;
 }
 .image p {
-    font-weight: 700;
-    color: #fff;
+    font-weight: 1000;
+    color: #fdf9ea;
     text-transform: uppercase;
 
 }
@@ -109,18 +109,18 @@ select {
     content: '';
 }
 #voucher_pic {
-    top: 60px;
-    left: 284px;
-    font-size: 24px;
+    top: 65px;
+    left: 351px;
+    font-size: 30px;
 }
 #sum_pic {
-    top: 213px;
-    left: 191px;
+    top: 250px;
+    left: 187px;
     font-size: 34px;
 }
 #count_pic {
-    top: 213px;
-    left: 361px;
+    top: 250px;
+    left: 356px;
     font-size: 34px;
 }
 
