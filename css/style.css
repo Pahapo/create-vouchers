@@ -104,13 +104,18 @@ select {
     text-transform: uppercase;
 
 }
-#voucher_pic, #sum_pic, #count_pic {
+#voucher_block, #sum_pic, #count_pic {
     position: absolute;
     content: '';
 }
-#voucher_pic {
+#voucher_block {
     top: 65px;
     left: 351px;
+    width: 100px;
+    display: flex;
+    justefy-content: center;
+}
+#voucher_pic {
     font-size: 30px;
 }
 #sum_pic {
