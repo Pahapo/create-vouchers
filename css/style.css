@@ -111,9 +111,9 @@ select {
 #voucher_block {
     top: 65px;
     left: 351px;
-    width: 100px;
+    width: 116px;
     display: flex;
-    justefy-content: center;
+    justify-content: center;
 }
 #voucher_pic {
     font-size: 30px;
