@@ -17,3 +17,11 @@ document.getElementById('create').addEventListener('click', function() {
     sum_pic.innerHTML = sum + "&#8381";
     count_pic.innerHTML = count;
 },false);
+
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
